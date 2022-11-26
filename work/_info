@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/17.1
+vahb_master
+Z0 !s110 1669451660
+!i10b 1
+!s100 9nLc31?cSKeo@5cz>U9Z03
+I<5`EPi>cb7FGHmT?A7QhZ2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d//Mac/Home/Documents/Maven/AHB2APB Bridge
+w1669440007
+8//Mac/Home/Documents/Maven/AHB2APB Bridge/AHB_master.v
+F//Mac/Home/Documents/Maven/AHB2APB Bridge/AHB_master.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1669451660.000000
+!s107 //Mac/Home/Documents/Maven/AHB2APB Bridge/AHB_master.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Documents/Maven/AHB2APB Bridge/AHB_master.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vAHB_slave
+R0
+!i10b 1
+!s100 fD@bzK01;?Vj1Zi^YTEaY1
+IBLT_4zH?X<5oP9:4`46=>0
+R1
+R2
+w1669440127
+8//Mac/Home/Documents/Maven/AHB2APB Bridge/Ahb_slave.v
+F//Mac/Home/Documents/Maven/AHB2APB Bridge/Ahb_slave.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Documents/Maven/AHB2APB Bridge/Ahb_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Documents/Maven/AHB2APB Bridge/Ahb_slave.v|
+!i113 1
+R5
+R6
+n@a@h@b_slave
+vapb_controller
+R0
+!i10b 1
+!s100 69ZdU_`=RUCW_cL0>2e[X2
+I5FBKQ`eEYzUQzZ2;abg4h1
+R1
+R2
+w1669451461
+8//Mac/Home/Documents/Maven/AHB2APB Bridge/apb_controller.v
+F//Mac/Home/Documents/Maven/AHB2APB Bridge/apb_controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Documents/Maven/AHB2APB Bridge/apb_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Documents/Maven/AHB2APB Bridge/apb_controller.v|
+!i113 1
+R5
+R6
+vapb_interface
+Z7 !s110 1669451661
+!i10b 1
+!s100 6SfbZCji_Iiz>b?=?Mzik0
+ITbo5d[3YAbP4A9LkDn2223
+R1
+R2
+w1669450299
+8//Mac/Home/Documents/Maven/AHB2APB Bridge/apb_interface.v
+F//Mac/Home/Documents/Maven/AHB2APB Bridge/apb_interface.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1669451661.000000
+!s107 //Mac/Home/Documents/Maven/AHB2APB Bridge/apb_interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Documents/Maven/AHB2APB Bridge/apb_interface.v|
+!i113 1
+R5
+R6
+vtop
+R0
+!i10b 1
+!s100 JXD:a0:?Odz@l]>NC;_RT2
+I9R9R9aS2Blkz6Nab2Gh[=0
+R1
+R2
+w1669450240
+8//Mac/Home/Documents/Maven/AHB2APB Bridge/top.v
+F//Mac/Home/Documents/Maven/AHB2APB Bridge/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 //Mac/Home/Documents/Maven/AHB2APB Bridge/top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Documents/Maven/AHB2APB Bridge/top.v|
+!i113 1
+R5
+R6
+vtop_th
+R7
+!i10b 1
+!s100 7OdP2CI]LL^fZ11Xz;n122
+INMI::bQc1O;7<9hZNWG^e0
+R1
+R2
+w1669451658
+8//Mac/Home/Documents/Maven/AHB2APB Bridge/top_tb.v
+F//Mac/Home/Documents/Maven/AHB2APB Bridge/top_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 //Mac/Home/Documents/Maven/AHB2APB Bridge/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Documents/Maven/AHB2APB Bridge/top_tb.v|
+!i113 1
+R5
+R6

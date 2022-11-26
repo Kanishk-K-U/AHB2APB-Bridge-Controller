@@ -1,0 +1,22 @@
+module top(hclk,hreset, hready_in, hwrite,htrans, haddr,
+hwdata,pr_data,penable,pwrite, hr_readyout,psel, paddr, pwdata,hr_data);
+input hclk,hreset,hready_in,hwrite;
+input [1:0] htrans;
+input [31:0]haddr,hwdata,pr_data;
+output penable,pwrite,hr_readyout,hr_data;
+output [2:0] psel;
+output [31:0] paddr,pwdata;
+output [31:0]hr_data;
+
+wire [31:0] haddr_1,haddr_2,hwdata_1,hwdata_2,hwrite_1,hwrite_2;
+wire [2:0] temp_sel;
+wire valid;
+
+ahb_slave DUT_1(hclk,hreset, hready_in,hwrite,htrans,
+haddr, hwdata,pr_data,haddr_1,haddr_2,hwdata_l,hwdata_2,
+valid, hwrite_1l,hwrite_2,hr_data,temp_sel);
+
+apb_controller DUT_2(hclk,hreset, hwrite, valid,
+haddr, hwdata, hwdata_l,hwdata_2,haddr_1,haddr_2,pr_data,
+temp_sel,penable,pwrite, hr_readyout, psel, paddr, pwdata) ;
+endmodule

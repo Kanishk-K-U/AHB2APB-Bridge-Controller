@@ -8,7 +8,6 @@ It is required to bridge the communication gap between low bandwidth peripherals
  <img width="640" height="400" src="https://github.com/Kanishk-K-U/AHB2APB/blob/master/images/read.png">
     </div>
 </p>
-Read Operation
 <h1 align="center">Write Operation<h1>
 <div align="center" >
  <img width="640" height="400" src="https://github.com/Kanishk-K-U/AHB2APB/blob/master/images/write.png">
